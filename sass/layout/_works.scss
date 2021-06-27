@@ -3,13 +3,13 @@
   margin-top: -30px;
   margin-left: -30px;
 }
-.works-list-item {
+.works-list__item {
   position: relative;
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
-.works-list-text {
+.works-list__text {
   position: absolute;
   bottom: 0;
   text-align: center;

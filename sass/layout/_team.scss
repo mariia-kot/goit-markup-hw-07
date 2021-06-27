@@ -1,19 +1,19 @@
-.team {
+.team-section {
   background-color: var(--third-background-color);
 }
-.team-member-list {
+.member {
   display: flex;
   margin-top: -30px;
   margin-left: -30px;
 }
-.team-member-list-content {
+.member__meta {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
   text-align: center;
 }
-.team-member {
+.member__card {
   background-color: var(--primary-background-color);
   margin-top: 30px;
   margin-left: 30px;
@@ -22,13 +22,13 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.team-member-name {
+.member__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 10px;
 }
-.team-member-position {
+.member__position {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.19;
